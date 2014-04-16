@@ -18,6 +18,7 @@
 @implementation WYHelloWorldViewController
 @synthesize label;
 @synthesize textField;
+@synthesize userName;//in this XCode4.3.3, need to add this manually
 
 - (void)viewDidLoad
 {
