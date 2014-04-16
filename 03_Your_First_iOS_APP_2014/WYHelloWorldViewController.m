@@ -9,12 +9,14 @@
 #import "WYHelloWorldViewController.h"
 
 @interface WYHelloWorldViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 - (IBAction)changeGreeting:(id)sender;
 
 @end
 
 @implementation WYHelloWorldViewController
+@synthesize label;
 @synthesize textField;
 
 - (void)viewDidLoad
@@ -26,6 +28,7 @@
 - (void)viewDidUnload
 {
     [self setTextField:nil];
+    [self setLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

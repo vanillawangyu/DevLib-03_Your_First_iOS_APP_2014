@@ -47,6 +47,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="label" destination="dvt-pi-fnY" id="NVh-Ui-kPg"/>
                         <outlet property="textField" destination="gTL-9d-WWc" id="fun-gJ-Dkl"/>
                     </connections>
                 </viewController>
@@ -58,6 +59,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/WYHelloWorldViewController.h"/>
             <relationships>
                 <relationship kind="action" name="changeGreeting:"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
             </relationships>
         </class>
