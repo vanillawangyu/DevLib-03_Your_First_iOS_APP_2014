@@ -10,4 +10,5 @@
 
 @interface WYHelloWorldViewController : UIViewController
 
+@property (copy, nonatomic) NSString *userName;
 @end
