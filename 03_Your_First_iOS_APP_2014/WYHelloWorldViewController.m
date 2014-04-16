@@ -9,6 +9,7 @@
 #import "WYHelloWorldViewController.h"
 
 @interface WYHelloWorldViewController ()
+- (IBAction)changeGreeting:(id)sender;
 
 @end
 
@@ -31,4 +32,6 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)changeGreeting:(id)sender {
+}
 @end
